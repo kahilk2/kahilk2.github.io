@@ -1,0 +1,209 @@
+/* universal shit */
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.imagesizelandscape {
+    width: 20rem;
+    height: 15rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.imagesizeportrait {
+    width: 10rem;
+    height: 15rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.imagesizeportraitill {
+    width: 20rem;
+    height: 30rem;
+    display: block;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.imagesizesquare {
+    width: 15rem;
+    height: 15rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.imagesizebanner {
+    width: 30%;
+    height: 10%;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+
+/* NAV SHIT */
+
+header {
+    background-color: rgb(21, 138, 103);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* CSS for all navigation stuff */
+
+nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 4.375rem;
+    padding-top: 1.75rem;
+    margin-right: 4.375rem;
+    font-size: 14px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 0.3125rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.navDiv {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 0.625rem 0;
+}
+
+
+/* THE EDITORIAL DIV */
+
+.editorialdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 103, 95);
+}
+
+.headingdiv {
+    background-color: rgb(77, 103, 95);
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0px;
+}
+
+.heading {
+    background-color: rgb(77, 103, 95);
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0px;
+}
+
+
+/* branding div */
+
+.brandingdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 103, 95);
+}
+
+
+/* illustrationdiv */
+
+.illustrationdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 103, 95);
+}
+
+
+/* THE FOOTER SHIT */
+
+.contact {
+    background-color: rgb(57, 141, 116);
+    text-align: center;
+    margin: 0;
+}
+
+.hcontact {
+    color: rgb(211, 208, 208);
+    margin: 0;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.contactIcon {
+    width: 3.125rem;
+    height: 3.125rem;
+}
